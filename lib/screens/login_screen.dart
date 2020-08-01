@@ -32,6 +32,7 @@ class _LoginScreenState extends State<LoginScreen> {
               onChanged: (value) {
                 //Do something with the user input.
               },
+              style: TextStyle(color: Colors.black),
               decoration: InputDecoration(
                 hintText: 'Enter your email',
                 contentPadding:
@@ -58,6 +59,8 @@ class _LoginScreenState extends State<LoginScreen> {
               onChanged: (value) {
                 //Do something with the user input.
               },
+              style: TextStyle(color: Colors.black),
+              obscureText: true,
               decoration: InputDecoration(
                 hintText: 'Enter your password.',
                 contentPadding:

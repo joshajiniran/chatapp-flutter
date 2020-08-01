@@ -31,6 +31,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               onChanged: (value) {
                 //Do something with the user input.
               },
+              style: TextStyle(color: Colors.black),
               decoration: InputDecoration(
                 hintText: 'Enter your email',
                 contentPadding:
@@ -55,6 +56,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               onChanged: (value) {
                 //Do something with the user input.
               },
+              style: TextStyle(color: Colors.black),
+              obscureText: true,
               decoration: InputDecoration(
                 hintText: 'Enter your password',
                 contentPadding:
